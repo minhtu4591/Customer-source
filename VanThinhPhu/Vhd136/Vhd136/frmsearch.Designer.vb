@@ -22,40 +22,36 @@ Partial Class frmsearch
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.txtdien_giai = New System.Windows.Forms.TextBox()
-        Me.txtso_ct = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.ten_dt = New System.Windows.Forms.Label()
-        Me.txtma_dt = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.ten_phi = New System.Windows.Forms.Label()
-        Me.txtma_phi = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.TxtDen_ngay = New ClsControl2.TxtDate()
-        Me.Txttu_ngay = New ClsControl2.TxtDate()
-        Me.ten_bp = New System.Windows.Forms.Label()
-        Me.txtma_bp = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.lblten_khach = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.txtma_kh = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.btntim = New System.Windows.Forms.Button()
-        Me.btnhuy = New System.Windows.Forms.Button()
-        Me.txtso_hd = New System.Windows.Forms.TextBox()
-        Me.Label11 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox
+        Me.txtso_ct = New System.Windows.Forms.TextBox
+        Me.Label3 = New System.Windows.Forms.Label
+        Me.ten_dt = New System.Windows.Forms.Label
+        Me.txtma_dt = New System.Windows.Forms.TextBox
+        Me.Label7 = New System.Windows.Forms.Label
+        Me.ten_phi = New System.Windows.Forms.Label
+        Me.txtma_phi = New System.Windows.Forms.TextBox
+        Me.Label5 = New System.Windows.Forms.Label
+        Me.TxtDen_ngay = New ClsControl2.TxtDate
+        Me.Txttu_ngay = New ClsControl2.TxtDate
+        Me.ten_bp = New System.Windows.Forms.Label
+        Me.txtma_bp = New System.Windows.Forms.TextBox
+        Me.Label4 = New System.Windows.Forms.Label
+        Me.lblten_khach = New System.Windows.Forms.Label
+        Me.Label2 = New System.Windows.Forms.Label
+        Me.txtma_kh = New System.Windows.Forms.TextBox
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.btntim = New System.Windows.Forms.Button
+        Me.btnhuy = New System.Windows.Forms.Button
+        Me.txtdien_giai = New System.Windows.Forms.TextBox
+        Me.Label6 = New System.Windows.Forms.Label
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
         Me.GroupBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.GroupBox1.Controls.Add(Me.txtso_hd)
-        Me.GroupBox1.Controls.Add(Me.Label11)
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox1.Controls.Add(Me.Label6)
         Me.GroupBox1.Controls.Add(Me.txtdien_giai)
         Me.GroupBox1.Controls.Add(Me.txtso_ct)
@@ -80,23 +76,6 @@ Partial Class frmsearch
         Me.GroupBox1.Size = New System.Drawing.Size(566, 188)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(12, 167)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(48, 13)
-        Me.Label6.TabIndex = 21
-        Me.Label6.Tag = "214"
-        Me.Label6.Text = "Dien giai"
-        '
-        'txtdien_giai
-        '
-        Me.txtdien_giai.Location = New System.Drawing.Point(116, 163)
-        Me.txtdien_giai.Name = "txtdien_giai"
-        Me.txtdien_giai.Size = New System.Drawing.Size(444, 20)
-        Me.txtdien_giai.TabIndex = 7
         '
         'txtso_ct
         '
@@ -169,7 +148,6 @@ Partial Class frmsearch
         '
         'TxtDen_ngay
         '
-        Me.TxtDen_ngay.Culture = New System.Globalization.CultureInfo("vi-VN")
         Me.TxtDen_ngay.Location = New System.Drawing.Point(222, 37)
         Me.TxtDen_ngay.Mask = "00/00/0000"
         Me.TxtDen_ngay.Name = "TxtDen_ngay"
@@ -274,23 +252,22 @@ Partial Class frmsearch
         Me.btnhuy.Text = "Huy"
         Me.btnhuy.UseVisualStyleBackColor = True
         '
-        'txtso_hd
+        'txtdien_giai
         '
-        Me.txtso_hd.Location = New System.Drawing.Point(343, 12)
-        Me.txtso_hd.Name = "txtso_hd"
-        Me.txtso_hd.Size = New System.Drawing.Size(100, 20)
-        Me.txtso_hd.TabIndex = 96
-        Me.txtso_hd.TabStop = False
+        Me.txtdien_giai.Location = New System.Drawing.Point(116, 163)
+        Me.txtdien_giai.Name = "txtdien_giai"
+        Me.txtdien_giai.Size = New System.Drawing.Size(444, 20)
+        Me.txtdien_giai.TabIndex = 7
         '
-        'Label11
+        'Label6
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(218, 16)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(63, 13)
-        Me.Label11.TabIndex = 97
-        Me.Label11.Tag = ""
-        Me.Label11.Text = "Số hóa đơn"
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(12, 167)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(48, 13)
+        Me.Label6.TabIndex = 21
+        Me.Label6.Tag = "214"
+        Me.Label6.Text = "Dien giai"
         '
         'frmsearch
         '
@@ -330,6 +307,4 @@ Partial Class frmsearch
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents txtdien_giai As System.Windows.Forms.TextBox
-    Friend WithEvents txtso_hd As TextBox
-    Friend WithEvents Label11 As Label
 End Class
